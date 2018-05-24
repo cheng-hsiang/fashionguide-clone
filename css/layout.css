@@ -1,0 +1,177 @@
+ * {
+     margin: 0;
+     padding: 0px;
+ }
+
+ .topborder {
+     width: 100%;
+     height: 5px;
+     background-color: #ff8a82;
+ }
+
+ .wrap {
+     margin: 0 auto;
+     width: 1000px;
+ }
+
+ .logo {
+     width: 240px;
+     height: 43.45px;
+     background-color: red;
+     margin-left: 30px;
+ }
+
+ .topbaricon {
+     display: flex;
+     width: 276.84px;
+ }
+
+ .topbaricon div {
+     margin: 5px;
+ }
+
+ .topbar {
+     height: 78px;
+     width: 1000px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .navbar {
+     width: 100%;
+     height: 50px;
+     border: 1px solid #ff8a82;
+     display: flex;
+     align-items: center;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+
+ .navbar ul {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .navbar li {
+     list-style: none;
+ }
+
+ .container {
+     max-width: 1000px;
+     height: auto;
+     padding: 0;
+     margin: 0 auto;
+ }
+
+ .mainad {
+     margin-bottom: 70px;
+ }
+
+ .main {
+     box-sizing: inherit;
+     display: flex;
+ }
+
+ .mainbar {
+     width: 700px;
+     margin-right: 70px;
+     
+ }
+
+ .sidebar {
+     width: 300px;
+ }
+
+ .products {
+     max-height: 505px;
+ }
+
+ .productsmainbar {
+     max-height: 505px;
+ }
+ .products-hander{
+     display: flex;
+     height: 30px;
+     justify-content: space-between;
+    }
+  
+
+ .products-hander-left{
+     display: flex;
+     align-items: center;
+     border-left: 5px solid #ff8a82;
+ }
+ .products-hander-left h2{
+     padding: 20px;
+     border: 3px;
+ }
+   .products-tab {
+       height: 42px;
+       width: 100%;
+   }
+.productsad{
+    padding: 22px 25px 22px 25px ;
+    margin:10px 0 30px 0 ;
+}
+.carousel{
+    height: 248px;
+    padding: 0 20px 0 20px;
+    background-color: red;
+}
+
+ .productssidebar {
+     height: 505px;
+ }
+
+ .secondad {
+     margin-top: 50px;
+     text-align: center;
+ }
+
+
+ .news {
+     box-sizing: inherit;
+     max-height: 2100px;
+     display: flex;
+ }
+
+ .newsmainbar {
+     height: 753px;
+     margin-right: 70px;
+     background-color: green;
+ }
+
+ .newssidebar {
+     height: 753px;
+     background-color: yellow;
+ }
+
+ .blog {
+     padding-top: 60px;
+     padding-bottom: 60px;
+     height: 600px;
+ }
+
+ .blogmainbar{
+      background-color: green;
+
+ }
+
+.blogsidebar{
+background-color: yellow;
+}
+ footer {
+     height: 337px;
+     width: 100%;
+     border-top: 1px solid red;
+ }
+
+ .sidebaradA {
+     padding-bottom: 15px;
+ }
+
+ .sidebaradB {
+     padding-bottom: 30px;
+ }
