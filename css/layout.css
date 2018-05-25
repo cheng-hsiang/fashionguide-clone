@@ -76,7 +76,7 @@
 
  .mainbar {
      width: 700px;
-     margin-right: 70px;
+    margin-right: 70px;
      
  }
 
@@ -86,11 +86,12 @@
 
  .products {
      max-height: 505px;
+     width: auto;
  }
 
- .productsmainbar {
-     max-height: 505px;
- }
+.productsminbar{
+    width: 630px;
+}
  .products-hander{
      display: flex;
      height: 30px;
@@ -134,8 +135,9 @@
 
  .news {
      box-sizing: inherit;
-     max-height: auto;
+
      display: flex;
+     padding-bottom: 60px;
  }
 
  .newsmainbar {
@@ -152,6 +154,7 @@
      border-bottom: 1px solid rgb(204, 204, 204);
      display: flex;
      padding-bottom: 30px;
+     height: 180px;
  }
  .newscard-left{
  padding-right: 13px;
@@ -162,11 +165,12 @@
      height: 180px;
  }
  .newscard-right{
-
+    display: flex;
+    flex-direction: column;
      
  }
   .card-right-top{
-    width:296.98px;
+ 
     display: flex;
     justify-content: space-between;
   }
@@ -199,11 +203,14 @@
 
  .newssidebar {
      height: 753px;
-     background-color: yellow;
+ }
+ .newssidebartitle{
+     height: 30px;
+
  }
 
  .blog {
-     padding-top: 60px;
+     margin-top: 60px;
      padding-bottom: 60px;
      height: 600px;
  }
