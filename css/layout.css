@@ -95,15 +95,16 @@
      display: flex;
      height: 30px;
      justify-content: space-between;
+     padding-bottom: 25px;
     }
   
 
- .products-hander-left{
+ .main-hander-left{
      display: flex;
      align-items: center;
      border-left: 5px solid #ff8a82;
  }
- .products-hander-left h2{
+ .main-hander-left h2{
      padding: 20px;
      border: 3px;
  }
@@ -115,7 +116,7 @@
     padding: 22px 25px 22px 25px ;
     margin:10px 0 30px 0 ;
 }
-.carousel{
+.productsad-carousel {
     height: 248px;
     padding: 0 20px 0 20px;
     background-color: red;
@@ -133,15 +134,68 @@
 
  .news {
      box-sizing: inherit;
-     max-height: 2100px;
+     max-height: auto;
      display: flex;
  }
 
  .newsmainbar {
      height: 753px;
      margin-right: 70px;
-     background-color: green;
+     
  }
+
+ .news-card-list{
+         box-sizing: inherit;
+ }
+ .newscard{
+     margin-top: 30px;
+     border-bottom: 1px solid rgb(204, 204, 204);
+     display: flex;
+     padding-bottom: 30px;
+ }
+ .newscard-left{
+ padding-right: 13px;
+    text-align: left;
+ }
+ .newscard-left img{
+     width:320px;
+     height: 180px;
+ }
+ .newscard-right{
+
+     
+ }
+  .card-right-top{
+    width:296.98px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-right-top-img{
+    display: flex;
+    align-items: center;
+  }
+  .card-right-middle{
+      margin-top: 28px;
+  }
+  .card-right-bottom{
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+  }
+.removedecoration{
+    text-decoration:none;
+}
+  .card-right-top-img a{
+       text-decoration:none;
+       margin-left: 10px;
+  }
+ 
+ .card-right-top img{
+     width: 65px;
+     height: 60px;
+     
+ }
+
 
  .newssidebar {
      height: 753px;
@@ -162,11 +216,7 @@
 .blogsidebar{
 background-color: yellow;
 }
- footer {
-     height: 337px;
-     width: 100%;
-     border-top: 1px solid red;
- }
+
 
  .sidebaradA {
      padding-bottom: 15px;
@@ -175,3 +225,16 @@ background-color: yellow;
  .sidebaradB {
      padding-bottom: 30px;
  }
+
+  footer {
+      border-top: 1px solid red;
+      height: auto;
+      width: 100%;
+  }
+  .footer-ad{
+ 
+      width: 100%;
+      height: 300px;
+      background-color: red;
+      
+  }
