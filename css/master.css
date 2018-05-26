@@ -1,45 +1,74 @@
-body{
-    font-family: Microsoft JhengHei,微軟正黑體, sans-serif;
+body {
+    font-family: Microsoft JhengHei, 微軟正黑體, sans-serif;
 }
-.navbar li{
+
+.navbar li {
     line-height: 50px;
     font-size: 16px;
     box-sizing: border-box;
 }
-.navbar span{
+
+.navbar span {
     color: #ff8a82;
     font-size: 30px;
+    line-height: 50px;
 }
-.products-hander-rightcolor{
-    color:#ff8a82;
+
+.products-hander-rightcolor {
+    color: #ff8a82;
     font-size: 18px;
     text-align: left;
     box-sizing: border-box
 }
-.products-tab-size{
+
+.products-tab-size {
     line-height: 30px;
     font-size: 14px;
     border-top: 1px solid rgb(204, 204, 204);
     border-bottom: 1px solid rgb(204, 204, 204);
     display: flex;
     align-items: center;
-    font-family: Microsoft JhengHei,微軟正黑體,sans-serif;
+    font-family: Microsoft JhengHei, 微軟正黑體, sans-serif;
 }
-.card-right-date-ym{
+
+.card-right-date-ym {
     font-size: 15px;
 }
-.card-right-date-d{
+
+.card-right-date-d {
     font-size: 56px;
 }
-.card-right-middle-font{
-       line-height: 24px;
-       font-size: 16px;
+
+.card-right-middle-font {
+    line-height: 24px;
+    font-size: 16px;
 }
-.fontgray{
+
+.fontgray {
     color: #ccc;
     font-size: 14px;
 }
-.fontblack{
+
+.fontblack {
     color: #333;
     font-size: 16px;
+}
+
+.removedecoration {
+    text-decoration: none;
+}
+
+.footeradcontext :first-child {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.footeradcontext :last-child {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+.footer-title{
+    background-color : #ff8a82;
 }
