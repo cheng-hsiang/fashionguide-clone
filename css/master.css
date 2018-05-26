@@ -42,6 +42,7 @@ body {
 .card-right-middle-font {
     line-height: 24px;
     font-size: 16px;
+    
 }
 
 .fontgray {
@@ -72,3 +73,37 @@ body {
 .footer-title{
     background-color : #ff8a82;
 }
+
+.iconcolor{
+    height: 30px;
+    color: #666;
+    font-size: 22.86px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid #ff8a82;
+    border-right: 1px solid #ff8a82;
+}
+.iconoclorpink{
+    color: #ff8a82;
+}
+.fontpink{
+    color : #ff8a82;
+    font-size: 14px;
+}
+
+.colorblue{
+      color: #5fd4df;
+}
+.borderpink{
+        color: #ff7bbd;
+        border-color: #ff7bbd;
+}
+.fontgrad{
+    font-size: 14px;
+      color: #666;
+}
+.carddatecolor{
+     color: #888;
+}
+   
+

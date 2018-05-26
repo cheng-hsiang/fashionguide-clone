@@ -21,12 +21,16 @@
 
  .topbaricon {
      display: flex;
-     width: 276.84px;
+     align-items: center;
  }
+.login{
+    padding-right: 15px;
+   
+}
+.iconpaddleft{
+    padding-left: 6px;
+}
 
- .topbaricon div {
-     margin: 5px;
- }
 
  .topbar {
      height: 78px;
@@ -35,6 +39,60 @@
      align-items: center;
      justify-content: space-between;
  }
+ .headericon{
+     display: flex;
+     
+ }
+
+
+
+
+
+
+/* testlist */
+
+#menu {
+    max-width: 1000px;
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+
+#menu li {
+    padding: 0;
+    display: flex;
+    flex-direction: row
+}
+
+#menu li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+#menu li ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height:5px;
+    color: #fff;
+    background: #ff8a82;
+
+}
+
+
+
+
+/*tsetlist*/
+  
+
+
+
+
 
  .navbar {
      width: 100%;
@@ -50,11 +108,12 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
+     position: relative;
  }
 
- .navbar li {
-     list-style: none;
- }
+
+
+
 
  .container {
      max-width: 1000px;
@@ -82,7 +141,7 @@
  }
 
  .products {
-     max-height: 505px;
+     height:auto;
      width: auto;
      padding-bottom: 50px;
  }
@@ -99,10 +158,23 @@
  }
 
  .main-hander-left {
-     display: flex;
-     align-items: center;
-     border-left: 5px solid #ff8a82;
-     height: 30px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid #ff8a82;
+    height: 30px;
+  
+ }
+ .headerborder{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid #5fd4df;
+    border-radius: 100px;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 22px;
+    color: #5fd4df;
  }
 
  .main-hander-left h2 {
@@ -118,7 +190,7 @@
  .productsad {
      padding: 22px 25px 22px 25px;
      margin: 10px 0 30px 0;
-     padding-bottom: 50px;
+
  }
 
  .productsad-carousel {
@@ -128,13 +200,20 @@
  }
 
  .productssidebar {
-     height: 505px;
+     height: auto;
  }
 
  .secondad {
      padding-top: 50px;
      padding-bottom: 50px;
      text-align: center;
+ }
+ .facebookstyle{
+     border:none;
+     visibility:visible;
+     width:300px;
+     height:280px;
+
  }
 
  .news {
@@ -152,7 +231,7 @@
  }
 
  .newscard {
-     margin-top: 30px;
+     padding-top: 30px;
      border-bottom: 1px solid rgb(204, 204, 204);
      display: flex;
      padding-bottom: 30px;
@@ -175,6 +254,7 @@
  }
 
  .card-right-top {
+     height: 49%;
      display: flex;
      justify-content: space-between;
  }
@@ -186,12 +266,23 @@
 
  .card-right-middle {
      margin-top: 28px;
+     height: 32%;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
  }
 
  .card-right-bottom {
+     height: 18%;
      margin-top: 15px;
      display: flex;
      justify-content: space-between;
+ }
+
+.card-right-bottom-watch-sapn {
+    padding-right: 15px;
  }
 
  .card-right-top-img a {
@@ -228,6 +319,9 @@
      margin-top: 10px;
      text-align: left;
  }
+.newssidebar-bottom-talk-icon{
+    margin-right: 5px;
+}
 
  .newssidebar-bottom-date {
      margin-right: 28px;
@@ -352,7 +446,11 @@
      border-left: 1px solid white;
  }
 .footer-bottom{
-     background-color: black;
+     background-color: #333;
+     width: 100%;
+     height: 90px;
+     display: flex;
+     align-items: center;
 }
  .footer-bottom-list {
      margin-bottom: 9.5px;
@@ -383,8 +481,16 @@
  }
 
 .footer-bottom-copyright{
+
          color: #aaa;
          font-size: 13px;
          line-height: 1.45;
-         
+
+}
+.footericon{
+     padding-left: 6px;
+     padding-right:6px;
+}
+.imgradius {
+    border-radius:50%
 }
