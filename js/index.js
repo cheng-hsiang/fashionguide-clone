@@ -21,3 +21,21 @@ $(function () {
         this.blur();
     });
 });
+
+
+
+$(document).ready(function () {
+    var $slider = $('.slider');
+
+    $slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        var calc = ((nextSlide) / (slick.slideCount - 1)) * 100;
+
+
+    });
+
+    $slider.slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 400
+    });
+});
