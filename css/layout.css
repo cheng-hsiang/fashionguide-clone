@@ -61,7 +61,7 @@
 #menu li {
     padding: 0;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 
 #menu li a {
@@ -73,25 +73,32 @@
 #menu li ul {
     list-style: none;
     position: absolute;
-    top:47px;
-    height:5px;
+    top:51px;
+    height:auto;
     color: #fff;
-  display: none;
-
+    display: none;
+    background: #ff8a82;
+    width: auto;
+    display: flex;
 }
 #menu li ul li{
     background: #ff8a82;
     float: left;
-
+    margin-left: 3px;
+    z-index: 2;
+    position: relative;
 }
 .pinkbar{
+    position: absolute;
     width: 100%;
     background: #ff8a82;
     height: 50px;
+    z-index: 0;
+    display: none;
 }
 
 
-/*tsetlist*/
+/*testlistEnd*/
   
 
 
@@ -428,7 +435,9 @@
  }
 
  .footertitleleftname {
-     padding-left: 12px;
+    padding-left: 12px;
+    font-size: 20px;
+    color: #fff;
  }
 
  .footer-title {
